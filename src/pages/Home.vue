@@ -24,6 +24,39 @@ import Globus from '@/components/ilustrations/globus.vue'
             </div>
 
             <div class="grid lg:grid-cols-3 grid-cols-1 xl:grid-cols-4 gap-4 mt-10">
+
+
+
+                <div class="md:hidden px-14 mb-40 text-center">
+                    <Globus />
+                    <p class="text-white text-sm">Waxpeer online & status</p>
+
+                    <p class="bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent text-[30px]">
+                        12698</p>
+                    <p class="text-[#BABAC2]/50 text-sm">extension</p>
+
+
+                    <div class="w-full flex justify-center">
+                        <div
+                            class="min-h-[50px] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400">
+                        </div>
+                    </div>
+
+                    <p class="bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent text-[30px]">
+                        5898</p>
+                    <p class="text-[#BABAC2]/50 text-sm">desktop</p>
+
+                    <div class="w-full flex justify-center">
+                        <div
+                            class="min-h-[50px] w-px self-stretch bg-gradient-to-tr from-transparent via-neutral-500 to-transparent opacity-25 dark:via-neutral-400">
+                        </div>
+                    </div>
+
+                    <p class="bg-gradient-to-b from-white to-transparent bg-clip-text text-transparent text-[30px]">
+                        25697</p>
+                    <p class="text-[#BABAC2]/50 text-sm">mobile</p>
+                </div>
+
                 <div class="card group">
                     <div class="flex justify-start items-center gap-2">
                         <IconUp class="bg-[#262626] rounded-full w-6 h-6 p-1" />
@@ -69,7 +102,7 @@ import Globus from '@/components/ilustrations/globus.vue'
                         </div>
                     </div>
 
-                    <Globus class="absolute right-0 w-1/3" />
+                    <Globus />
                 </div>
 
                 <div class="card group">

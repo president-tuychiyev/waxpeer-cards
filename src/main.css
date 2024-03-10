@@ -32,3 +32,23 @@
         background-position: 0% 50%;
     }
 }
+
+.svg-wrapper svg {
+    transform-origin: 50% 50%;
+    animation-name: globeRotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes globeRotate {
+    0% {
+        transform: rotate(0deg);
+        transform: translate3d(0);
+    }
+
+    100% {
+        transform: rotate(180deg);
+        transform: translate3d(180deg);
+    }
+
+}
