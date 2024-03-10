@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        @apply h-[180px] rounded-md p-4 relative cursor-pointer hover:bg-gradient-to-bl from-green-500/5 to-blue-200/5 via-transparent animate-gradient bg-[#212121];
+    }
+
+    .arrow {
+        @apply fill-white w-4 opacity-0 transition-all duration-300 absolute right-5;
+    }
+}
+
+.animate-gradient {
+    background-size: 300%;
+    -webkit-animation: animatedgradient 4s ease infinite alternate;
+    -moz-animation: animatedgradient 4s ease infinite alternate;
+    animation: animatedgradient 4s ease infinite alternate;
+}
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
